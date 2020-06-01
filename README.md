@@ -29,7 +29,7 @@ Things you may want to cover:
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
-|username|string|null: false|
+|name|string|null: false|
 |email|string|null: false, unique: true|
 |password|string|null: false, unique: true|
 
