@@ -73,6 +73,7 @@
     border-bottom: 1px solid #eeeeee;
     display: flex;
     justify-content: space-between;
+    
     &__left-item{
       margin-left: 40px;
       &__name{
@@ -105,6 +106,7 @@
     height: calc(100vh - 190px);
     background-color: #fafafa;
     padding-left: 40px;
+    overflow: scroll;
     &__message-blank{
       height: 35px;
     }
