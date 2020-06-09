@@ -1,6 +1,5 @@
 $(function(){
   function buildHTML(message){
-    // 「もしメッセージに画像が含まれていたら」という条件式
     if (message.image) {
       let html = 
        ` <div class="Main-chat__message-list__message-info">
@@ -43,7 +42,7 @@ $(function(){
     console.log(this);
     $.ajax({
       url: url,
-      type: 'POST',  //同期通信でいう『HTTPメソッド』
+      type: 'POST', 
       data: formData,  
       dataType: 'json',
       processData: false,
